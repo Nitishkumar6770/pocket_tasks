@@ -200,7 +200,7 @@ class _PocketTasksScreenState extends State<PocketTasksScreen> {
                         );
                         return;
                       }
-                      _addTask(); 
+                      _addTask();
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(content: Text('Task Added')),
                       );
