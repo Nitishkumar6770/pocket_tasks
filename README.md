@@ -1,16 +1,19 @@
-# pocket_task
+# PocketTasks Mini
 
-A new Flutter project.
+A small **task management Flutter app** that allows users to add, search, filter, and manage tasks with offline storage. Designed to be lightweight, reactive, and polished with a custom animated progress ring.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Features**
 
-A few resources to get you started if this is your first Flutter project:
+- Add tasks with validation (no empty titles)
+- Toggle tasks as **Active / Done**
+- Swipe to delete tasks with **Undo** via SnackBar
+- Search tasks with **debounced input (300ms)**
+- Filter tasks: **All / Active / Done**
+- Animated **circular progress ring** showing completed/total tasks
+- Light & Dark theme support
+- Persistent storage using **SharedPreferences**
+- Efficient rendering for 100+ tasks using `ListView.builder`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
